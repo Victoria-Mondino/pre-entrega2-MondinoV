@@ -438,8 +438,8 @@
 }
 
 .grid__items i {
-    font-size: 2em; /* Aumenta el tamaño del icono */
-    border-radius: 50%; /* Borde redondeado */
+    font-size: 2em; 
+    border-radius: 50%; 
     background-color: #ff0080ee; 
     padding: 30px; 
     color: #fff;
@@ -588,8 +588,8 @@
     font-size: 2rem;
 }
 .bi-arrow-right {
-    display: inline-block; /* Necesario para la animación */
-    transition: transform 0.3s ease-in-out; /* Transición suave */
+    display: inline-block; 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .bi-arrow-right:hover {
@@ -612,23 +612,42 @@
     background-color: rgba(0, 0, 0, .5) ;
     z-index: -1;
 }
-.card {
-    background-color: #ff008083;
+.porta-section-web > h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
-.card-body {
-    min-height: 300px; 
-    margin-bottom: 20px;
+.card-title {
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+}
+.card-text {
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
 }
 
-.card-body h5 {
-    margin-top: 4rem;
+.cardes > .card-body > .card-title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
 }
-.carrusel {
-    max-height: 500px; 
+.cardes > ul > li {
+    border: 1px solid #323336;
+    margin-top: 1rem;
+    margin-bottom: 1rem
 }
-.carrusel img {
-    align-items: center;
+
+.cardes > ul > li > i {
+    color:  #ff0080ee;
+    margin-right: 1rem;
 }
+.ultimo_card {
+    margin-top: 1rem;
+}
+
+
 
 /* PAGINA CONTACTO */
 .contacto {
@@ -642,6 +661,84 @@
     inset: 0;
     background-color: rgba(0, 0, 0, .6) ;
     z-index: -1;
+}
+.contact-icon {
+    align-items: center;
+    justify-content: center;
+}
+.card > img {
+    width: 30%;
+}
+.card-body > h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+}
+.contact {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.contact-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+}
+.contact-form {
+    padding: 40px;
+    width: 50%;
+}
+.contact-form h6 {
+    color:  #ff0080ee;
+    margin-bottom: 10px;
+}
+.contact-form h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f8f9fa;
+}
+.contact-form button {
+    background-color: #ff0080ee;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+}
+.contact-form button:hover {
+    background-color: #ff0988a9;
+    color: #000000;
+}
+.contact-image {
+    width: 50%;
+    height: auto;
+}
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -861,6 +958,11 @@
     .col {
         margin-top: 1rem;
     }
+    /*----PAGINA CONTACTO---*/
+    .contact-icon {
+        display: flex;
+        flex-direction: column;
+    }
 
     .footer {
         display: flex;
@@ -869,6 +971,9 @@
     .footer-menu ul{
         display: flex;
         flex-direction: column;
+    }
+    .copyright {
+        margin-top: 1rem;
     }
     
 
