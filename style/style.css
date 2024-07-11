@@ -612,6 +612,9 @@
     background-color: rgba(0, 0, 0, .5) ;
     z-index: -1;
 }
+.card {
+    background-color: #ff008083;
+}
 .card-body {
     min-height: 300px; 
     margin-bottom: 20px;
@@ -620,8 +623,12 @@
 .card-body h5 {
     margin-top: 4rem;
 }
-
-
+.carrusel {
+    max-height: 500px; 
+}
+.carrusel img {
+    align-items: center;
+}
 
 /* PAGINA CONTACTO */
 .contacto {
