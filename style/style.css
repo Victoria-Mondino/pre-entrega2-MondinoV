@@ -452,6 +452,7 @@
     font-family: "Josefin Sans", sans-serif;
 }
 .grid__items h3, p {
+    margin-top: 12px;
     font-family: "Josefin Sans", sans-serif;
     color: #212329;
 }
@@ -879,6 +880,9 @@
     }
     .equipo_title h2 {
         font-size: 1.5rem;
+        text-align: left;
+    }
+    .equipo_title h4 {
         text-align: left;
     }
     .equipo_parraf {
