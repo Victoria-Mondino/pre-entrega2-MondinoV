@@ -1,0 +1,202 @@
+.sobre-nosotros {
+    background-image: url(../img/diverse-team-of-people-presenting-business-growth-on-screen.jpg);
+    position: relative;
+    isolation: isolate;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, .5) ;
+        z-index: -1;
+    }
+}
+.quienes-somos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 4rem;
+
+    .quienes-somos_titles {
+        padding: 2rem;
+    
+        h4 {
+            font-family: $fontJosefin ;
+            font-size: 1rem;
+            color: $colorPrincipal;
+            margin-bottom: 17px;
+        }
+        
+        h2 {
+            font-family: $fontJosefin ;
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        p {
+            font-family: $fontJosefin;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+    }
+    .quienes-somos_img img  {
+        max-width: 600px;
+    }
+    .btn_sobre-nosotros {
+        all: unset; 
+        cursor: pointer; 
+        background-color: $colorPrincipal;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 17px;
+        transition: 1s ease;
+    
+        &:hover {
+            background-color: #ffffffee; 
+            color: $colorPrincipal;
+        }
+    
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: $fontJosefin;
+    
+            &:hover {
+                color: $colorPrincipal;
+            }
+        }
+    }
+}
+
+.about__crecimiento {
+    background-color: #F5F5F5;
+
+    .about_crecimiento-titles h4 {
+        margin-top: 2rem;
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $fontJosefin;
+        color: $colorPrincipal;
+    }
+    
+    h2 {
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: "Josefin Sans", sans-serif;
+    }
+    .about_crecimiento-card {
+        display: flex;
+        gap: 2rem;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .about_crecimiento-cards {
+        padding: 2rem;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 12px;
+        position: relative;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        h2 {
+            color: $colorPrincipal ;
+            font-size: 3rem;
+            margin-top: 12px;
+            font-family: $fontJosefin;
+        }
+        p {
+            font-size: 1rem;
+            margin-top: 12px;
+            font-family: $fontJosefin;
+        }
+    }
+}
+
+.about_solicitud {
+    background-image: url(../img/about-image-2048x918.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    padding: 5rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(204, 22, 113, 0.753) ;
+        z-index: -1;
+    }
+    .about_soli-container {
+        margin-left: 10rem;
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 12px;
+            font-family:$fontJosefin;
+            color: #fff;
+        }
+        h2 {
+            font-size: 3rem;
+            margin-top: 22px;
+            color: #fff;
+            font-family: $fontJosefin;
+        }
+        .btn_soli, .btn-soli{
+            background-color: transparent; 
+            border: none; 
+            padding: 0; 
+            margin-top: 1.5rem;
+            cursor: pointer;  
+        
+        }
+        .btn_soli a, .btn-soli a {
+            display: inline-block;
+            text-decoration: none;
+            color: inherit;
+            padding: 10px 20px; 
+        }
+        .btn-soli {
+            background-color: #F5F5F5;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-family: $fontJosefin;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-out;
+            
+            &:hover {
+                background-color: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+        }
+        .btn_soli {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 1rem;
+            font-family: $fontJosefin;
+            border-radius: 12px;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-out
+    
+        }
+        .btn_soli:hover {
+            background-color: #fff;
+            color: #000000;
+        }
+    }
+}
+
+
+
+
