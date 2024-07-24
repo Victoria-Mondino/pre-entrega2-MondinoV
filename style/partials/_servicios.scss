@@ -1,0 +1,186 @@
+.servicios {
+    background-image: url(../img/african-american-it-specialist-in-server-room.jpg);
+    position: relative;
+    isolation: isolate; 
+    
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, .5) ;
+        z-index: -1;
+    }
+}
+.grid__item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 4rem;
+
+    .grid__items {
+        padding: 2rem;
+        text-align: center;
+
+        i {
+            font-size: 2em; 
+            border-radius: 50%; 
+            background-color: $colorPrincipal; 
+            padding: 30px; 
+            color: #fff;
+
+            &:hover {
+                background-color: #000000;
+            }
+        }
+        h2 {
+            margin-top: 3rem;
+            font-family: $fontJosefin;
+        }
+        h3, p {
+            margin-top: 12px;
+            font-family: $fontJosefin;
+            color: #212329;
+        }
+    }
+}
+
+.servicios__section {
+    background-image: url(../img/testimonials-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container__servi {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+
+        .why-choose-us {
+            text-align: left;
+            margin-bottom: 50px;
+            margin-top: 6rem;
+            
+            h2 {
+                font-size: 14px;
+                color: #fff;
+                text-transform: uppercase;
+                margin: 0;
+                margin-bottom: 2rem;
+                font-family: $fontJosefin;
+            }
+            h1 {
+                font-size: 48px;
+                margin: 10px 0;
+                color: #fff;
+                font-family: $fontJosefin;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 20px 0;
+                padding: 0 2rem 0 0;
+                font-family: $fontJosefin;
+                color: #fff;
+            }
+            .cta-button {
+                background-color: $colorPrincipal;
+                border: none;
+                color: white;
+                padding: 15px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 10px;
+                cursor: pointer;
+                border-radius: 5px;
+                font-family: $fontJosefin;
+                transition-duration: 0.5s;
+                &:hover {
+                    background-color: transparent;
+                    border: 1px solid  $colorPrincipal;
+                }
+            }
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+
+            .feature-box {
+                background-color: rgba(255, 0, 128, 0.788);
+                padding: 20px;
+                border-radius: 10px;
+                text-align: left;
+                margin-top: 2rem;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+                .feature-icon {
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                    color: #fff;
+                }
+                h3 {
+                    font-size: 20px;
+                    margin: 10px 0;
+                    color: #fff;
+                    font-family: $fontJosefin;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 1.5;
+                    font-family: $fontJosefin;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}
+.proyec_servis {
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    display: flex;
+    padding: 7rem;
+    text-align: center;
+    gap: 12rem;
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    isolation: isolate; 
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(197, 196, 196, 0.479) ;
+        z-index: -1;
+    }
+
+    h2 {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.5;
+    }
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+    i {
+        font-size: 2rem;
+
+        .bi-arrow-right {
+            display: inline-block; 
+            transition: transform 0.3s ease-in-out; 
+
+            &:hover {
+                transform: translateX(10px); 
+                animation: arrow-move 0.5s ease-in-out infinite;
+            }
+        }
+    }
+}

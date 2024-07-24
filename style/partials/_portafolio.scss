@@ -1,0 +1,49 @@
+.portafolio {
+    background-image: url(../img/digital-tablet-computer-showing-stock-market-data.jpg);
+    position: relative;
+    isolation: isolate; 
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, .5) ;
+        z-index: -1;
+    }
+}
+
+.porta-section-web {
+
+    h2 {
+        font-family: $fontJosefin;
+        font-size: 2.5rem;
+        padding: 3rem;
+        text-align: center;
+    }
+}
+
+.cardes {
+    .card-body {
+        .card-title {
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 2rem;
+        }
+    }
+    ul {
+        li {
+            border: 1px solid #323336;
+            margin-top: .75rem;
+            margin-bottom: .75rem;
+            font-family: $fontJosefin;
+
+            i {
+                color:  $colorPrincipal;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+.ultimo_card {
+    margin-top: 1rem;
+}

@@ -6,6 +6,7 @@
     <title>Zenit | Estudio Creativo</title>
     <link rel="shortcut icon" href="./img/zarla-mad-digital-1x1-2400x2400-20230829-cqt83bfry4rf8yk6k69k.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/estilo.css">
     <link rel="stylesheet" href="../style/style.css">
 </head>
@@ -55,37 +56,37 @@
             <div class="grid__item">
                 <div class="grid__items">
                     <i class="bi bi-pc-display-horizontal"></i>
-                    <h2>UI & UX Design</h2>
+                    <h2 data-aos="zoom-in-down">UI & UX Design</h2>
                     <h3>Development</h3>
                     <p>Nos esforzamos por innovar incluso en las convenciones más comunes y la utilizamos a su favor.</p>
                 </div>
                 <div class="grid__items">
                     <i class="bi bi-rocket-takeoff"></i>
-                    <h2>Publicidad digital</h2>
+                    <h2 data-aos="zoom-in-down">Publicidad digital</h2>
                     <h3>Development</h3>
                     <p>Nuestro equipo de expertos utiliza un enfoque basado en datos, aprovechando las últimas técnicas para impulsar su presencia en línea.</p>
                 </div>
                 <div class="grid__items">
                     <i class="bi bi-window-stack"></i>
-                    <h2>Desarrollo de software</h2>
+                    <h2 data-aos="zoom-in-down">Desarrollo de software</h2>
                     <h3>Development</h3>
                     <p>Desarrollamos software a medida que agiliza sus operaciones, mejora la eficiencia e impulsa el crecimiento.</p>
                 </div>
                 <div class="grid__items">
                     <i class="bi bi-screwdriver"></i>
-                    <h2>Mantenimiento Web</h2>
+                    <h2 data-aos="zoom-in-down">Mantenimiento Web</h2>
                     <h3>Development</h3>
                     <p>Nuestro servicio de mantenimiento web ofrece soporte y conservación integral de sus soluciones digitales.</p>
                 </div>
                 <div class="grid__items">
                     <i class="bi bi-phone-flip"></i>
-                    <h2>Desarrollo de aplicaciones</h2>
+                    <h2 data-aos="zoom-in-down">Desarrollo de aplicaciones</h2>
                     <h3>Development</h3>
                     <p>Creamos aplicaciones móviles escalables y sólidas que funcionan bien y ofrecen una experiencia de usuario consistente en todos los dispositivos.</p>
                 </div>
                 <div class="grid__items">
                     <i class="bi bi-display"></i>
-                    <h2>Diseño de páginas web</h2>
+                    <h2 data-aos="zoom-in-down">Diseño de páginas web</h2>
                     <h3>Development</h3>
                     <p>Creamos sitios web visualmente impactantes y funcionales que no sólo atraen visitantes sino que también los convierten en clientes.</p>
                 </div>
@@ -96,7 +97,7 @@
                 <div class="why-choose-us">
                     <h2>POR QUÉ ELEGIRNOS</h2>
                     <h1>Apoyamos su crecimiento local o internacional.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                    <p>Desde la lluvia de ideas hasta la entrega del producto, ejecutamos cada paso a la perfección. No solo obtiene un servicio, sino un socio comprometido con su crecimiento y éxito.</p>
                     <button class="cta-button">EMPEZAR</button>
                 </div>
                 <div class="features">
@@ -139,21 +140,38 @@
 
 
     <footer class="footer">
-        <div class="logo-menu">
-            <img class="logo" src="../img/zarla-mad-digital-1x1-2400x2400-20230829-cqt83bfry4rf8yk6k69k.png" alt="">
-            <nav class="footer-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div>
+                <h3>Zenit | Estudio Creativo</h3>
+                <p> ¡Contáctenos y comience!</p>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Datos de Contacto</h3>
+                <p>📞 (123) 456 7890</p>
+                <p>✉️ info@ejemplo.com</p>
+                <p>📍 123 King Street, Nueva York</p>
+            </div>
+            <div>
+                <h3>SUSCRÍBETE A NUESTRO BOLETÍN</h3>
+                <p>Suscríbete a mi boletín para recibir las últimas novedades.</p>
+                <input type="email" placeholder="Dirección de email">
+                <button>Suscribirse</button>
+            </div>
         </div>
-            <p class="copyright"> 2024 Zenit. All right reserved.</p>
-        </div>
+        <p>© 2024 Zenit. Todos los derechos reservados.</p>
     </footer>
 
+
+
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>

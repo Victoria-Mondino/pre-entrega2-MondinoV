@@ -1,0 +1,71 @@
+.hero {
+    background-image: url(../img/Esio-home_top.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 4rem;
+        }
+
+        .open-menu, .close-menu, .mobile-menu__nav {
+            display: none;
+        }
+    }
+    .desktop-menu {
+        display: block;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 2rem;
+            font-family: $fontJosefin ;
+            padding: 2rem;
+        }
+
+        ul li a {
+            color: #fff;
+            font-family: $fontJosefin;
+            font-size: 1rem;
+            text-decoration: none;
+            
+            &:hover {
+                color: $colorPrincipal;
+            }
+        }
+    }
+    .hero__content {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hero__content-title {
+
+            h2 {
+                color: #fff;
+                font-family: $fontJosefin;
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            h3 {
+                font-family: $fontJosefin;
+                font-size: 1.5rem;
+                text-align: center;
+                color: #fff;
+                font-weight: 350;
+            }
+        }
+    }
+    
+}
