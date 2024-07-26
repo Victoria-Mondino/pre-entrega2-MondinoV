@@ -708,15 +708,19 @@
   margin-bottom: 10px;
   font-size: 1.3rem;
 }
+.footer .container .social-icons i {
+  padding: 6px;
+}
 .footer .container .social-icons a {
   color: #fff;
   margin: 0 3px;
   text-decoration: none;
 }
 .footer .container .social-icons a:hover {
-  color: rgba(255, 0, 128, 0.9333333333);
+  color: black;
 }
-.footer input[type=email] {
+
+input[type=email] {
   padding: 10px;
   width: 70%;
   margin-right: 10px;
@@ -724,7 +728,8 @@
   text-align: center;
   border-radius: 5px;
 }
-.footer button {
+
+button {
   padding: 10px 20px;
   margin-top: 7px;
   border: none;
@@ -733,12 +738,29 @@
   color: #fff;
   cursor: pointer;
 }
-.footer button:hover {
+button:hover {
   background-color: transparent;
   border: 1px solid rgba(255, 0, 128, 0.9333333333);
 }
-.footer p {
+
+p {
   margin: 10px 0;
+}
+
+.bi-facebook {
+  background-color: rgba(59, 59, 199, 0.6901960784);
+}
+
+.bi-whatsapp {
+  background-color: #0db80d;
+}
+
+.bi-linkedin {
+  background-color: #94aaf3;
+}
+
+.bi-instagram {
+  background-color: #8f1d5c;
 }
 
 @media (max-width: 767px) {

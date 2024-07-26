@@ -22,16 +22,20 @@
             }
         }
         .social-icons {
+            i {
+                padding: 6px;
+            }
             a {
                 color: #fff;
                 margin: 0 3px;
                 text-decoration: none;
 
                 &:hover {
-                    color: $colorPrincipal;
+                    color: black;
                 }
             }
         }
+    }
     }
     input[type="email"] {
         padding: 10px;
@@ -57,5 +61,17 @@
     }
     p {
         margin: 10px 0;
+    }
+
+    $redes: (
+        facebook: #3b3bc7b0,
+        whatsapp:#0db80d,
+        linkedin: #94aaf3,
+        instagram:#8f1d5c
+    );
+
+@each $redsocial, $colordered in $redes {
+    .bi-#{$redsocial} {
+        background-color: $colordered;
     }
 }
