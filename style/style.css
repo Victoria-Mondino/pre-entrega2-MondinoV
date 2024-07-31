@@ -1,5 +1,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.btn-soli {
+    color: black;
+}
+@media (max-width: 767px) {
+    .mobile-menu__nav {
+        display: none;
+        position: relative;
+        z-index: 10;
+    }
+    .card  {
+        z-index: -1;
+    }
 
+}
 @media only screen and (min-width: 600px) and (max-width: 1024px)  {
     .quienes-somos {
         flex-direction: column;
