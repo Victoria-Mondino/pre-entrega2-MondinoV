@@ -59,7 +59,7 @@
         }
     
         a {
-            color: #ffffff;
+            color: $colorPrincipal;
             text-decoration: none;
             font-family: $fontJosefin;
     
@@ -168,6 +168,7 @@
         .btn-soli {
             background-color: #F5F5F5;
             border-radius: 12px;
+            color: #000000;
             font-size: 1rem;
             font-family: $fontJosefin;
             transition-duration: 0.5s;
